@@ -2,7 +2,6 @@ import { createClient, createCluster } from "redis";
 require("dotenv").config();
 
 const password = process.env.CACHE_PASSWORD;
-// use this when CMD
 const host = process.env.CACHE_HOST;
 const port = 6379;
 
